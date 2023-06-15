@@ -7,7 +7,5 @@
         "noUnusedLocals": false,
         "lib": ["DOM"]
     },
-    "include": [
-        "./src/**/*"
-    ]
+    "include": ["./src/**/*"]
 }
