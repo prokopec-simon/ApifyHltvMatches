@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "HLTV all matches",
     "title": "Cheerio scraper for HLTV matches",
-    "description": "A simple crawler that returns raw page content for HLTV match details.",
+    "description": "A simple crawler that returns raw page content for HLTV match list.",
     "version": "0.1",
     "meta": {
         "templateId": "ts-crawlee-cheerio"

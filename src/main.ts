@@ -6,6 +6,7 @@ const proxyConfiguration = await Actor.createProxyConfiguration();
 
 const crawler = new CheerioCrawler({
     proxyConfiguration,
+    maxRequestRetries: 20,
     async requestHandler({ $ }) {
         const pageContent = $('html').html();
         await Actor.pushData({
